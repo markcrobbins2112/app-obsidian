@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; --- Context Menu entry for Directories ---
+[HKEY_CLASSES_ROOT\Directory\shell\AddObsidianJunction]
+@="Add Obsidian Junction"
+"Icon"="C:\\$res\\icon\\extensions\\obsidian.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\AddObsidianJunction\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe\" \"C:\\_o\\__\\app-obsidian\\junction-to-obsidian.au3\" \"%1\""
+
+; --- Context Menu entry for Folders ---
+[HKEY_CLASSES_ROOT\Folder\shell\AddObsidianJunction]
+@="Add Obsidian Junction"
+"Icon"="C:\\$res\\icon\\extensions\\obsidian.ico"
+
+[HKEY_CLASSES_ROOT\Folder\shell\AddObsidianJunction\command]
+@="\"C:\\Program Files (x86)\\AutoIt3\\AutoIt3.exe\" \"C:\\_o\\__\\app-obsidian\\junction-to-obsidian.au3\" \"%1\""

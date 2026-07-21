@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; --- For Standard Folders ---
+[HKEY_CLASSES_ROOT\Directory\shell\OpenInObsidian]
+@="Open in Obsidian"
+"Icon"="C:\\$res\\icon\\extensions\\obsidian.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenInObsidian\command]
+@="\"C:\\Program Files\\Obsidian\\Obsidian.exe\" \"%1\""
+
+; --- For Directory Backgrounds (Right-clicking empty space inside a folder) ---
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenInObsidian]
+@="Open in Obsidian"
+"Icon"="C:\\$res\\icon\\extensions\\obsidian.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenInObsidian\command]
+@="\"C:\\Program Files\\Obsidian\\Obsidian.exe\" \"%V\""
