@@ -1,0 +1,57 @@
+# added to vanilla below
+# .vscode-test/**
+# **/*.map
+# **/jsconfig.json (Note: jsconfig.json was present, but this global subdirectory pattern was new)
+# **/eslint.config.mjs (Note: eslint.config.* was present, but this explicit path was new)
+# **/.vscode-test.*
+
+# ==========================================
+# Vanilla / Universal .vscodeignore
+# ==========================================
+
+# --- Source Code & Build Tooling ---
+.vscode/**
+.github/**
+tsconfig.json
+jsconfig.json
+**/jsconfig.json
+webpack.config.js
+vsc-extension-quickstart.md
+**/*.map
+
+# --- Linters, Formatters, & AI Rules ---
+.editorconfig
+.eslintrc*
+eslint.config.*
+**/eslint.config.mjs
+.cursorrules
+.markdownlint*
+.stylelint*
+prettier.config.*
+
+# --- Package Management Assets ---
+# Note: Keep node_modules unignored, vsce automatically prunes devDependencies
+# but requires production dependencies to be bundled.
+.yarnrc
+.npmrc
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# --- Test Suites & Mock Data ---
+test/**
+.vscode-test/**
+**/.vscode-test.*
+mocks/**
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# --- Operational & Repository Meta ---
+.git/**
+.gitignore
+.gitattributes
+README.md
+CHANGELOG.md
+LICENSE

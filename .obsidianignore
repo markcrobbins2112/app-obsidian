@@ -1,0 +1,15 @@
+# ==========================================
+# Vanilla .obsidianignore
+# ==========================================
+
+# Block the heavy development dependency directory
+node_modules/
+
+# Block standard build outputs and caches
+dist/
+build/
+.cache/
+
+# Block text editor configuration directories
+.vscode/
+.idea/

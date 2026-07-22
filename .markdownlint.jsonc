@@ -1,0 +1,159 @@
+// .markdownlint.jsonc
+// z.202607191832098379
+{
+	"MD001": true, // github! Heading levels should only increment by one at a time
+	"MD002": true, // First heading should be a top-level heading
+	"MD003": { // Heading style [atx, atx_closed, setext, consistent]
+		"style": "consistent"
+	},
+	"MD004": { // Unordered list style [asterisk, plus, dash, consistent]
+		"style": "consistent"
+	},
+	"MD005": true, // Inconsistent indentation for list items at the same level
+	"MD006": true, // Consider starting bulleted lists at the beginning of the line
+	"MD007": { // github! Unordered list indentation (spaces used for nested child nodes)
+		"indent": 2
+	},
+	"MD008": false,
+	"MD009": { // Trailing spaces configuration
+		"br_spaces": 2,
+		"list_item_empty_lines": false,
+		"strict": false
+	},
+	"MD010": false, // Hard tabs configuration details
+	"_MD010": { // Hard tabs configuration details
+		"code_blocks": true,
+		"spaces_per_tab": 4
+	},
+	"MD011": true, // Reversed link syntax
+	"MD012": false, // Multiple consecutive blank lines (limits extra empty lines)
+    "_MD013": false, // github! Default strict line width constraints
+	"MD013": { // Default strict line width constraints
+		"line_length": 1160,
+		"heading_line_length": 160,
+		"code_block_line_length": 360,
+		"code_blocks": true,
+		"tables": true,
+		"headings": true,
+		"strict": false
+	},
+	"MD014": true, // Dollar signs used before commands without showing output
+	"MD018": true, // No space after hash on atx style heading
+	"MD019": true, // Multiple spaces after hash on atx style heading
+	"MD020": true, // No space inside hashes on closed atx style heading
+	"MD021": true, // Multiple spaces inside hashes on closed atx style heading
+    "_MD022": { // github! Headings should be surrounded by blank lines
+        "lines_above": 1,
+        "lines_below": 1
+    },
+	"MD022": false, // Headings should be surrounded by blank lines
+	"MD023": true, // Headings must start at the beginning of the line
+    "_MD024": { // github! MD024: Multiple headings with the same content
+        "allow_different_nesting": true,
+        "siblings_only": true
+    },
+    "MD024": { // Identical text content rules for multiple headers
+		// "allow_different_nesting": false, //Property allow_different_nesting is not allowed.
+		"siblings_only": false
+	},
+	"MD025": { // Top-level heading check structures
+		"level": 1,
+		"front_matter_title": ""
+		//"front_matter_title": "^\\s*title\\s*[:=]"
+	},
+	"MD026": { // Trailing punctuation exclusions in headings
+		"punctuation": "" // ".,;:!?"
+	},
+	"MD027": true, // Multiple spaces after blockquote symbol
+	"MD028": true, // Blank line inside blockquote
+	"MD029": { // Ordered list prefix styles [one, ordered, one_or_ordered, zero]
+		"style": "one_or_ordered"
+	},
+	"MD030": { // Required spaces surrounding list elements
+		"ul_single": 1,
+		"ol_single": 1,
+		"ul_multi": 1,
+		"ol_multi": 1
+	},
+	"MD031": false, // Fenced code blocks should be surrounded by blank lines
+	"MD032": false, // Lists should be surrounded by blank lines
+    "MD033": { // github! Inline HTML restrictions configuration
+        "allowed_elements": [
+            "a",
+            "br",
+            "details",
+            "div",
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6",
+            "kbd",
+            "img",
+            "pre",
+            "span",
+            "summary"
+        ]
+    },
+	"MD034": true, // github! Bare URL used instead of a markdown format link
+	"MD035": { // Horizontal rule style matching parameters
+		"style": "consistent"
+	},
+	"MD036": true, // Emphasis used instead of a heading (e.g., **bold** used as a header)
+	"MD037": true, // Spaces inside emphasis markers
+	"MD038": true, // No-space-in-code: Spaces inside code span elements
+	"MD039": true, // Spaces inside link text layout
+	"MD040": true, // Fenced code blocks must have a language specified
+    "_MD041": { // github! First line file layout checks
+        "level": 1,
+        "front_matter_title": "^\\s*title\\s*:"
+    },
+    "MD041": { // First line file layout checks
+		"level": 1,
+		"front_matter_title": "^\\s*title\\s*[:=]"
+	},
+	"MD042": true, // github! Empty links are not allowed
+	"MD043": false, // Demands a strict pre-configured header sequence
+	"_MD043": { // Demands a strict pre-configured header sequence
+		"headings": []
+		// "headers": [] // Property headers is not allowed.
+	},
+	"MD044": { // Enforce exact custom word casing patterns
+		"names": [],
+		"code_blocks": true,
+		"html_elements": true
+	},
+	"MD045": true, // Images must have alternative text descriptions
+	"MD046": { // Code block layout consistency [fenced, indented, consistent]
+		"style": "consistent"
+	},
+	"MD047": false, // Files should end with a single newline
+	"MD048": { // Fenced code blocks quote styles [backtick, tilde, consistent]
+		"style": "consistent"
+	},
+	"MD049": { // Italics accent marker validation [asterisk, underscore, consistent]
+		"style": "consistent"
+	},
+	"MD050": { // Bold strong emphasis marker consistency [asterisk, underscore, consistent]
+		"style": "consistent"
+	},
+	"MD051": true, // Link fragments must point to valid local anchor tags
+	"MD052": true, // Reference links and images must use defined label components
+	"MD053": { // Unused layout definitions tracking variables
+		"ignored_definitions": [
+			"[]"
+		]
+	},
+	"MD054": { // Enforced link styling patterns
+		"url_inline": true // "consistent" Incorrect type. Expected "boolean".
+		// "url_reference": "consistent", // Property url_reference is not allowed.
+		// "image_inline": "consistent", // Property image_inline is not allowed.
+		// "image_reference": "consistent" // Property image_reference is not allowed.
+	},
+	"MD055": true, // Table horizontal rules should match structure
+	"MD056": true, // Table column count must match across rows
+	"MD058": true, // Tables should be surrounded by blank lines
+	"MD060": false // Table cell text padding consistency
+}
+// .markdownlint.jsonc
